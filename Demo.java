@@ -1,9 +1,16 @@
 public class Demo{
 	public static void main(String args[]){
-		Product p1 = new Product("Laptop",2000.0,3);
-	System.out.println(p1.getName());
-	System.out.println(p1.getPrice());
-	System.out.println(p1.getQuantity());
-	}
+		Student s1= new Student();
+		s1.name="Charlie Kirk";
+		s1.Regno="FA25-BEE-000";
+		s1.CGPA = 2.46;
+
+	System.out.println("Name: "+s1.name);
 	
+	System.out.println("Registration: "+s1.Regno);
+	
+	System.out.println("CGPA: "+s1.CGPA);
 }
+
+}
+
